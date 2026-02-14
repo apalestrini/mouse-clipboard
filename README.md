@@ -26,8 +26,8 @@ Se utiliza **libratbag/ratbagctl** para configurar macros de teclado directament
 |-------|--------|-------|
 | **Atras** (Button 3) | Copiar | `Ctrl+Shift+C` |
 | **Adelante** (Button 4) | Portapapeles KDE | `Meta+V` |
-| **Click central** (Button 2) | Pegar imagenes | `Ctrl+V` |
-| **Rueda derecha** (Button 9) | Pegar en terminales | `Shift+Insert` |
+| **Click central** (Button 2) | Original | Pegar seleccion, cerrar tabs |
+| **Rueda derecha** (Button 9) | Pegar | `Ctrl+V` |
 | **Rueda izquierda** (Button 10) | Captura de pantalla | `Meta+Shift+S` |
 
 ## Comandos Utiles
@@ -72,8 +72,9 @@ Ver todos: `/usr/include/linux/input-event-codes.h`
 ## Notas
 
 - `Ctrl+Shift+C` se usa en lugar de `Ctrl+C` para evitar matar procesos en terminales
-- `Shift+Insert` es universal para pegar en terminales (incluyendo VS Code)
+- Click central conserva funcion original (pegar seleccion, cerrar pestanas en navegador)
 - `Meta+V` es el atajo nativo de KDE para mostrar el historial del portapapeles
+- `Meta+Shift+S` abre Spectacle para captura de region de pantalla
 
 ## Proyecto Original (Rust)
 
