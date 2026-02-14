@@ -76,6 +76,16 @@ Ver todos: `/usr/include/linux/input-event-codes.h`
 - `Meta+V` es el atajo nativo de KDE para mostrar el historial del portapapeles
 - `Meta+Shift+S` abre Spectacle para captura de region de pantalla
 
+## Flujo de trabajo
+
+| Quiero... | Uso |
+|-----------|-----|
+| Copiar texto | Boton **Atras** |
+| Pegar en terminal | **Click medio** (pega seleccion) |
+| Pegar imagenes | **Rueda derecha** (Ctrl+V) |
+| Ver historial | Boton **Adelante** |
+| Capturar pantalla | **Rueda izquierda** |
+
 ## Proyecto Original (Rust)
 
 El directorio contiene un intento inicial en Rust usando evdev/uinput que fue descartado por complejidad. La solucion final usa ratbagctl que es mas simple y robusta.
