@@ -1,0 +1,11 @@
+[package]
+name = "mouse-clipboard"
+version = "0.1.0"
+edition = "2021"
+description = "Aplicación residente para manejar portapapeles con botones extra del mouse"
+authors = ["Ale"]
+
+[dependencies]
+evdev = "0.13"
+anyhow = "1.0"
+ctrlc = "3.4"
